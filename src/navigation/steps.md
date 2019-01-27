@@ -30,3 +30,18 @@ export default {
 }
 </script>
 ```
+
+
+#### Attributes
+
+##### Steps
+属性 |说明| 类型|  可选| 默认
+--- | --------------|------|--------|----------
+activeSteps | 当前激活的步骤 | Number | -- | 0
+direction | 步骤显示方向 | String | horizontal | horizontal
+
+##### Step
+属性 |说明| 类型|  可选| 默认
+--- | --------------|------|--------|----------
+title | 步骤标题 | String | -- | --
+description | 步骤描述 | String | -- | --
