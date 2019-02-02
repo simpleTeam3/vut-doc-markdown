@@ -3,7 +3,8 @@
 #### 基本
 
 标签之间滚动切换
-```vue
+```html
+/*vue*/
 <template>
 	<div>
 		<div class="tabBox">
@@ -57,6 +58,8 @@ export default {
 }
 </style>
 ```
+<br/>
+
 
 #### Attributes
 <br/>

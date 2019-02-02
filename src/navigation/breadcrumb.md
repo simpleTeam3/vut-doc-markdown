@@ -1,8 +1,9 @@
 # 面包屑导航
 
-#### 基本
+### 基本
 
-```vue
+```html
+/*vue*/
 <template>
     <div class="breadcrumb-demo">
         <div>
@@ -56,3 +57,15 @@ export default {
 }
 </style>
 ```
+
+### Attributes
+#### Breadcrumb
+属性 |说明| 类型|  可选| 默认
+--- | --------------|------|--------|----------
+separator | 分隔符 | String | -- | /
+separatorClass | 分隔符类名 | String | -- | --
+
+#### Breadcrumb-item
+属性 |说明| 类型|  可选| 默认
+--- | --------------|------|--------|----------
+to | 路由跳转地址 | String | -- | --
