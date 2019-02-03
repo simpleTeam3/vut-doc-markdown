@@ -55,3 +55,20 @@
 }
 </style>
 ```
+
+<br/>
+ 
+### Attributes  
+
+#### Select
+
+#### Option
+属性 |说明| 类型| 可选| 默认
+----|----|----|-----|----
+label| 选项描述| String| --| --
+value| 选项key, 唯一值| String, Number| --| --
+
+### Select Events
+事件名 |说明| 参数
+----|----|----
+select| 选中某项| 选中值
