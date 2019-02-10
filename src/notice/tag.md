@@ -63,7 +63,7 @@ export default {
 ### Attribute
 
 属性|说明|类型|可选|默认
----|------|----|-----|-----
+---|-----|----|-----|-----
 type| 标签类型| String| success, info, warning, error
-index| 排序| Number| 
-size| 
+index| 排序| Number| --| --
+size| 标签大小| String| small| --
